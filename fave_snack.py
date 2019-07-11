@@ -4,13 +4,12 @@ from urllib.request import urlopen
 """Simple script to search through two JSON files, and find if the favourite item of a customer is in stock
 
 This python script searches through two JSON files, and determines if the favourite item of a customer is in stock,
-and if so, stores the email of the user, the information for the product, and how much it would cost if all of the 
-items for all of the customers were to be ordered. It stores information on the emails and available products in 
-two separate text files, customer_emails.txt and fave_items_stock.txt respectively.
+and if so, prints the email of the user, the information for the product, and how much it would cost if all of the 
+items for all of the customers were to be ordered. 
 
 In other words, if user 'RyanBoucher@realemail.com' has a favourite food 'crunch bar', and 'crunch bar' is in the 
-list of products as 'crunch bar' of price '5.00', the email will be written to customer_emails.txt, the favourite food
-will be written to fave_items_stock.txt, and the program will alert you that if all food was bought, the total would be 
+list of products as 'crunch bar' of price '5.00', the program will print a list containing 'RyanBoucher@realemail.com', 
+print a list containing 'crunch bar', and print that the total would be $5.00
 $5
 
 """
