@@ -10,7 +10,6 @@ items for all of the customers were to be ordered.
 In other words, if user 'RyanBoucher@realemail.com' has a favourite food 'crunch bar', and 'crunch bar' is in the 
 list of products as 'crunch bar' of price '5.00', the program will print a list containing 'RyanBoucher@realemail.com', 
 print a list containing 'crunch bar', and print that the total would be $5.00
-$5
 
 """
 
